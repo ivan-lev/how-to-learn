@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
   color: #000;
 }
 
@@ -21,6 +22,7 @@
 
 .logo_place_header {
   top: 30px;
+  left: 64px;
 }
 
 .logo_place_footer {
@@ -38,10 +40,8 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  padding-left: 64px;
   background-color: #f2f2f2;
   z-index: -3;
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
@@ -52,7 +52,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  margin: 0;
+  margin-left: 64px;
 }
 
 .header__link {
@@ -63,10 +63,10 @@
 .header__subtitle {
   position: absolute;
   width: 388px;
+  left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -110,7 +110,6 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
   color: #2f80ed;
   margin: 0;
 }
@@ -159,7 +158,6 @@
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
 }
 
 .table {
@@ -184,7 +182,6 @@
 .table__text {
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
   padding-top: 20px;
 }
 
@@ -215,7 +212,6 @@
   padding-top: 70px;
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
 }
 
 .feynman__link {
@@ -224,7 +220,6 @@
   right: 48px;
   line-height: 51px;
   font-size: 36px;
-  font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
 }
@@ -252,7 +247,6 @@
   width: 60%;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
 }
 
 .table__heading_theme_dark {
@@ -267,7 +261,6 @@
   margin-top: 80px;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .kaufman__triangle {
@@ -308,7 +301,6 @@
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column_content_info,
@@ -332,23 +324,20 @@
   text-decoration: none;
 }
 
-.footer__column-link_youtube::before {
-  content: url("../images/youtube-icon.svg");
+.footer__column-link::before {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.footer__column-link_youtube::before {
+  content: url("../images/youtube-icon.svg");
 }
 
 .footer__column-link_vk::before {
   content: url("../images/vk_color_white.svg");
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
 }
 
 .footer__column-link_tiktok::before {
   content: url("../images/tiktok-icon.svg");
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
 }
