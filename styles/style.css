@@ -10,7 +10,7 @@
   color: #000;
 }
 
-/* ========== HEADER SECTION ==========*/
+/* ========== LOGO BLOCK ==========*/
 
 .logo {
   width: 228px;
@@ -22,6 +22,13 @@
 .logo_place_header {
   top: 30px;
 }
+
+.logo_place_footer {
+  background-image: url("../images/logo_place_footer.svg");
+  position: static;
+}
+
+/* ========== HEADER SECTION ==========*/
 
 .logo_place_footer {
 }
@@ -50,6 +57,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__subtitle {
@@ -181,6 +189,7 @@
 }
 
 /* ========== FEYNMAN SECTION ==========*/
+
 .feynman {
   position: relative;
   text-align: center;
@@ -217,13 +226,14 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 /* ========== KAUFMAN SECTION ==========*/
 
 .kaufman {
   color: #fff;
-  background-color: #000;
+  background-color: #1f1f1f;
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
@@ -269,4 +279,76 @@
   right: -210px;
   top: 0;
   z-index: -1;
+}
+
+/* ========== FOOTER SECTION ==========*/
+
+.footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__columns {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info,
+.footer__column_content_social {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column_heading {
+  font-weight: 600;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  margin: 20px 0 16px 0;
+  padding-inline-start: 0px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-link_youtube::before {
+  content: url("../images/youtube-icon.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__column-link_vk::before {
+  content: url("../images/vk_color_white.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__column-link_tiktok::before {
+  content: url("../images/tiktok-icon.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
