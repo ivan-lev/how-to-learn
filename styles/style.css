@@ -109,6 +109,7 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
   color: #2f80ed;
   margin: 0;
 }
@@ -176,12 +177,15 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   padding-top: 20px;
+  margin: 0;
 }
 
 /* ========== FEYNMAN SECTION ==========*/
