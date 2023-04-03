@@ -1,3 +1,7 @@
+/* ИМПОРТ ВЕНДОРНЫХ СТИЛЕЙ */
+
+@import url("../vendor/normalize.css");
+
 /* СТИЛИ ДЛЯ БЛОКА PAGE */
 
 @import url("../blocks/page/page.css");
