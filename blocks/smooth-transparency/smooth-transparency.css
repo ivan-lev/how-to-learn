@@ -1,0 +1,7 @@
+.smooth-transparency {
+  transition: opacity 1s linear;
+}
+
+.smooth-transparency:hover {
+  opacity: 0.5;
+}
