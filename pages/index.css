@@ -46,6 +46,11 @@
 @import url(../blocks/cards/__title/cards__title.css);
 
 /* СТИЛИ ДЛЯ БЛОКА VIDEO */
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+
 /* СТИЛИ ДЛЯ БЛОКА OAKLEY */
 
 /* СТИЛИ ДЛЯ БЛОКА FEYNMAN */
