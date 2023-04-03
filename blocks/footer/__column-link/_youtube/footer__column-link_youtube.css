@@ -1,3 +1,3 @@
 .footer__column-link_youtube::before {
-  content: url("../../../../images/youtube-icon.svg");
+  content: url('../../../../images/youtube-icon.svg');
 }
