@@ -1,6 +1,10 @@
+/* СТИЛИ ДЛЯ ЛОГОТИПА */
+
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* СТИЛИ ДЛЯ БЛОКА HEADER */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -9,12 +13,16 @@
 @import url(../blocks/header/__subtitle/header__subtitile.css);
 @import url(../blocks/header/__title/header__title.css);
 
+/* СТИЛИ ДЛЯ БЛОКА DESCRIPTION */
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+
+/* СТИЛИ ДЛЯ БЛОКА DIGITS */
 
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/section-title/section-title.css);
@@ -23,3 +31,10 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
+
+/* СТИЛИ ДЛЯ БЛОКА FEYNMAN */
+
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
