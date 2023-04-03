@@ -94,32 +94,32 @@
 
 /* ========== DESCRIPTION SECTION ========== */
 
-.descriprion {
+/* .descriprion {
   padding-top: 100px;
-}
+} */
 
-.two-columns {
+/* .two-columns {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.two-columns__brief {
+/* .two-columns__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-}
+} */
 
-.two-columns__main-text {
+/* .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-}
+} */
 
-.two-columns__paragraph {
+/* .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -129,11 +129,11 @@
 
 .two-columns__paragraph:last-child {
   padding-bottom: 0;
-}
+} */
 
-.two-columns__span-accent {
+/* .two-columns__span-accent {
   font-weight: 600;
-}
+} */
 
 /* ========== DIGITS SECTION ========== */
 
