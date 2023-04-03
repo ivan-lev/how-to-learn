@@ -52,6 +52,7 @@
 @import url(../blocks/video/__iframes/video__iframes.css);
 
 /* СТИЛИ ДЛЯ БЛОКА OAKLEY */
+@import url(../blocks/oakley/oakley.css);
 
 /* СТИЛИ ДЛЯ БЛОКА FEYNMAN */
 
