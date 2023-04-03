@@ -17,6 +17,13 @@
 @import url(../blocks/header/__subtitle/header__subtitile.css);
 @import url(../blocks/header/__title/header__title.css);
 
+/* СТИЛИ ДЛЯ ЗАГОЛОВКОВ И ПОДЗАГОЛОВКОВ SECTION */
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
 /* СТИЛИ ДЛЯ БЛОКА DESCRIPTION */
 
 @import url(../blocks/description/description.css);
@@ -26,17 +33,31 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* СТИЛИ ДЛЯ БЛОКА TECHNIQUES */
+
+@import url(../blocks/techniques/techniques.css);
+
+/* СТИЛИ ДЛЯ БЛОКА CARDS */
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+
+/* СТИЛИ ДЛЯ БЛОКА VIDEO */
+/* СТИЛИ ДЛЯ БЛОКА OAKLEY */
+
+/* СТИЛИ ДЛЯ БЛОКА FEYNMAN */
+
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+
 /* СТИЛИ ДЛЯ БЛОКА DIGITS */
 
 @import url(../blocks/digits/digits.css);
-
-/* СТИЛИ ДЛЯ ЗАГОЛОВКОВ И ПОДЗАГОЛОВКОВ SECTION */
-
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
-
-@import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 /* СТИЛИ ДЛЯ БЛОКА TABLE */
 
@@ -47,13 +68,6 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
-
-/* СТИЛИ ДЛЯ БЛОКА FEYNMAN */
-
-@import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__link/feynman__link.css);
-@import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 
 /* СТИЛИ ДЛЯ БЛОКА KAUFMAN */
 
@@ -74,11 +88,3 @@
 @import url(../blocks/footer/__column-link/_youtube/footer__column-link_youtube.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
-@import url(../blocks/footer/);
