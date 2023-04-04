@@ -1,6 +1,10 @@
 .video__iframes {
   margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
   display: flex;
   gap: 20px;
   justify-content: center;
+  list-style-type: none;
+  line-height: 0;
 }
